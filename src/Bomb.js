@@ -4,12 +4,12 @@ export default class Bomb extends Component {
   constructor(state) {
     super(props)
     this.state = {
-      secondsLeft: this.props.initialCount
+      secondsLeft: props.initialCount
     }
   }
 
   render() {
-
+  
 
    return (
      <div></div>
